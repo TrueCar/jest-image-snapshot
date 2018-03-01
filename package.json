@@ -27,8 +27,13 @@
       "!**/node_modules/**",
       "!test-results/**"
     ],
-    "testMatch": ["<rootDir>/__tests__/**/*.js"],
-    "coveragePathIgnorePatterns": ["/node_modules/", "<rootDir>/examples"] 
+    "testMatch": [
+      "<rootDir>/__tests__/**/*.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/examples"
+    ]
   },
   "repository": {
     "type": "git",
@@ -52,7 +57,7 @@
     "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
     "pixelmatch": "^4.0.2",
-    "pngjs": "^3.3.0"
+    "pngjs-nozlib": "1.0.0"
   },
   "peerDependencies": {
     "jest": ">=20 <=22"

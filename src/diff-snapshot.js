@@ -17,7 +17,7 @@ const path = require('path');
 const childProcess = require('child_process');
 const pixelmatch = require('pixelmatch');
 const mkdirp = require('mkdirp');
-const { PNG } = require('pngjs');
+const { PNG } = require('pngjs-nozlib');
 
 function diffImageToSnapshot(options) {
   const {
